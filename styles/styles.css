@@ -1,0 +1,133 @@
+/* Body Specifications */
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+p {
+  font-family: "Roboto Mono", sans-serif;
+  color: #434343;
+}
+
+h1 {
+  color: #222211;
+}
+
+h2 {
+  color: #37371b;
+}
+
+h3 {
+  color: #636333;
+}
+
+/* Link Specifications */
+
+a:link {
+  color: #636333;
+}
+
+a:visited {
+  color: #222211;
+}
+
+a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Hero Specifications */
+
+.hero {
+  position: relative;
+}
+
+.hero .overlay {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), transparent 70%);
+}
+
+.hero .text-group {
+  /* flex box will make centering easier. This is just a fix using position */
+  position: absolute;
+  top: 40%;
+  text-align: center;
+  width: 100%;
+  padding: 0 2rem;
+}
+
+/* Button Specifications */
+
+.button {
+  background-color: #37371b;
+  border-radius: 3px;
+  color: #636333;
+  display: inline-block;
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 14px;
+  padding: 8px 15px;
+  margin-top: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  user-select: none;
+}
+
+.button:hover {
+  background-color: var(--highlight-color-dark);
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+}
+
+.button:active {
+  background-color: var(--highlight-color);
+  box-shadow: none;
+}
+
+.button:focus {
+  background-color: var(--highlight-color-dark);
+  box-shadow: 0 0 0 2px var(--highlight-color-light) inset;
+  color: #fff;
+}
+
+/* Card Specifications */
+* {
+  box-sizing: border-box;
+}
+
+.cards {
+  margin: 3rem;
+  display: inline-block;
+}
+
+.card {
+  position: relative;
+}
+
+.card p {
+  color: white;
+  font-style: bold;
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+  margin: 0;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  font-size: 4rem;
+  font-weight: bold;
+  color: #fff;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.card:hover .overlay {
+  transition: 500ms;
+  opacity: 0.9;
+}
+
+.card:hover img {
+  transition: 500ms;
+  filter: grayscale(0.4) brightness(0.3);
+}
