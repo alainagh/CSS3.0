@@ -94,6 +94,7 @@ a:hover {
 }
 
 .cards {
+  width: 600px;
   margin: 3rem;
   display: inline-block;
 }
