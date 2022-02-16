@@ -46,7 +46,7 @@ a:hover {
 }
 
 .hero .text-group {
-  /* flex box will make centering easier. This is just a fix using position */
+  color: white;
   position: absolute;
   top: 40%;
   text-align: center;
