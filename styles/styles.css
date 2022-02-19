@@ -47,7 +47,7 @@ a:hover {
   position: relative;
 }
 
-.hero .overlay {
+.hero .wrapper {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), transparent 50%);
 }
 
