@@ -10,6 +10,8 @@ body {
 p {
   font-family: "Roboto Mono", sans-serif;
   color: #434343;
+  margin-left: 1rem;
+  margin-top: 1rem;
 }
 
 h1 {
