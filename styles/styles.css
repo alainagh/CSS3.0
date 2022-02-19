@@ -111,8 +111,9 @@ a:hover {
 }
 
 .cards {
-  width: 600px;
-  margin: 3rem;
+  width: 300px;
+  margin-left: 2rem;
+  margin-top: 2rem;
   display: inline-block;
 }
 
