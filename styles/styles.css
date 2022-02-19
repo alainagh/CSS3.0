@@ -51,8 +51,8 @@ a:hover {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), transparent 50%);
 }
 
-.hero .overlay .text-wrapper {
-  position: relative;
+.wrapper {
+  position: absolute;
   top: 50%;
   text-align: center;
 
