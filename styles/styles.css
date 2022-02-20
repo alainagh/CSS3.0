@@ -45,6 +45,7 @@ a:hover {
 
 .hero {
   position: relative;
+  width: 100%;
 }
 
 .hero .wrapper {
