@@ -45,7 +45,7 @@ a:hover {
 
 .hero {
   position: relative;
-  width: 100%;
+  viewport-fit: 100%;
 }
 
 .hero .wrapper {
